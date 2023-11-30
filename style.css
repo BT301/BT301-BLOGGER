@@ -149,6 +149,24 @@ header.shadow .logo{
     font-weight: 400;
 }
 
+.jap{
+    width: 100%;
+    min-height: 440px;
+    background: url("images/4p.jpg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.mar{
+    width: 100%;
+    min-height: 440px;
+    background: url("images/6p.jpg");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .about{
     position: relative;
@@ -168,6 +186,7 @@ header.shadow .logo{
 .titleText{
     font-weight: 600;
     color: #111;
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 10px;
 }
