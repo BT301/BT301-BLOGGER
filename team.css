@@ -6,6 +6,21 @@
 	text-decoration: none;
 }
 
+
+/* Responsive Styles */
+section {
+	padding: 1em;
+	max-width: 100%; /* Set your desired maximum width for desktop view */
+	margin: 0 auto;
+}
+
+/* Mobile view styles */
+@media only screen and (max-width: 600px) {
+	section {
+		max-width: 100%; /* Adjust to full width for mobile view */
+	}
+} 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
@@ -97,17 +112,12 @@ header.shadow .logo{
     color: var(--second-color);
 }
 
-html, body{
-    background-color: radial-gradient(#281c3e,#0f051d);
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 .team{
 	position: relative;
 	width: 100%;
 	height: 140vh;
-    max-height:2000px;
+    max-height:2000px; 
 	background: radial-gradient(#281c3e,#0f051d);
 	display: grid;
 	align-items: center;

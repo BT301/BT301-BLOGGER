@@ -8,10 +8,24 @@
     box-sizing: border-box;
 }
 
+/* Responsive Styles */
+section {
+	padding: 1em;
+	max-width: 100%; /* Set your desired maximum width for desktop view */
+	margin: 0 auto;
+}
+
+/* Mobile view styles */
+@media only screen and (max-width: 600px) {
+	section {
+		max-width: 100%; /* Adjust to full width for mobile view */
+	}
+} 
+
 /* root values */
 :root{
     --container-color: #1a1e21;
-    --second-color: rgba(77, 228, 255);
+    --second-color: rgb(42, 83, 90);
     --text-color: #172317;
     --bg-color: #fff;
 }
